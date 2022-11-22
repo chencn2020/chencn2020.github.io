@@ -2898,13 +2898,17 @@ ul.posts article header> :last-child {
 .data_detail>header .edu_detail .school_info {
 	margin-top: auto;
 	margin-bottom: auto;
-	width: 30%;
+	min-width: 30%;
+}
+
+.data_detail>header .edu_detail .school_info > p {
+	margin: auto;
 }
 
 .data_detail>header .edu_detail .school_name {
 	font-size: 2em;
 	height: 2em;
-	display: flex;
+	display: inline-block;
 	align-items: center;
 	justify-content: center;
 }
