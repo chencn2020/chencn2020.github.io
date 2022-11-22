@@ -2948,13 +2948,28 @@ ul.posts article header> :last-child {
 
 .data_detail>header .edu_detail .edu_info .main_deital {
 	text-align: center;
-	width: 12em;
 }
 
 
 .data_detail>header .edu_detail .edu_info>table tr{
 	border: none;
 }
+
+.data_detail>header .edu_detail .edu_info> table tr {
+	/* border-top: rgba(0, 0, 0, 0.1) solid 1px; */
+	margin: 0;
+	border: none;
+}
+
+.data_detail>header .edu_detail .edu_info> table td {
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 10px;
+	max-width: 100%;
+}
+
+
 
 
 /* Post */
@@ -3041,8 +3056,36 @@ ul.posts article header> :last-child {
 	text-align: center;
 	margin: auto;
 	top: 50%;
+	width: 100%;
 	/* width: 20em; */
 }
+
+/* span {
+	display:inline-block;
+	width:100%;
+	word-wrap:break-word;
+	white-space:normal;
+} */
+
+table {
+	table-layout: fixed;
+	word-break: break-all;
+}
+
+.post>header .info> table tr {
+	/* border-top: rgba(0, 0, 0, 0.1) solid 1px; */
+	margin: 0;
+	border: none;
+}
+
+.post>header .info> table td {
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 10px;
+	max-width: 100%;
+}
+
 
 .post>header .info p {
 	font-family: 'xingkai';
@@ -3057,6 +3100,7 @@ tr {
 	border: 0px solid green;
 	background-color: white;
 	font-size: 1.25rem;
+	width: 100%;
 }
 
 .post>table,
