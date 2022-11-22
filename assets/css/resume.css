@@ -1890,7 +1890,7 @@ hr.major {
 		padding-top: 2em;
 	}
 
-}
+}font-family
 
 /* Author */
 
@@ -3761,6 +3761,60 @@ body.single #wrapper {
 
 }
 
+/* achievement */
+.achievement {
+	left: -3em;
+	position: relative;
+	width: calc(100% + 6em);;
+}
+
+.achievement .stage {
+	font-family: 'kaiti';
+	font-size: 1.8rem;
+	font-weight: bold;
+}
+
+.achievement .stage > p{
+	margin: 5px;
+}
+
+.achievement .achievement_detail {
+	font-family: 'kaiti';
+	font-size: 1.25rem;
+	margin-top: 0px;
+}
+
+.achievement .achievement_detail .achievement_table_name {
+	font-family: 'kaiti';
+	font-size: 1.5rem;
+	font-weight: bolder;
+	width: 20%;
+}
+
+.achievement .achievement_detail> table {
+	border-top: rgba(0, 0, 0, 0.1) solid 1px;
+	border-bottom: rgba(0, 0, 0, 0.1) solid 1px;
+	/* border: rgba(0, 0, 0, 1) solid; */
+	margin: 0;
+}
+
+.achievement .achievement_detail> table tr {
+	/* border-top: rgba(0, 0, 0, 0.1) solid 1px; */
+	margin: 0;
+	border: none;
+}
+
+.achievement .achievement_detail> table td {
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 10px;
+}
+
+.achievement .achievement_detail> table td > ol {
+	text-align: left;
+	margin: 0px;
+}
 /* Footer */
 
 #footer .icons {
