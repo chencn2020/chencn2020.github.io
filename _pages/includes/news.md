@@ -1,6 +1,6 @@
 # 🔥 News
 
-- 🎉 **07/2024**:  our work "PromptIQA: Boosting the Performance and Generalization for No-Reference Image Quality Assessment via Prompts" was accepted by The 18th European Conference on Computer Vision  ([ECCV 2024]()).
+- 🎉 **07/2024**:  our work "PromptIQA: Boosting the Performance and Generalization for No-Reference Image Quality Assessment via Prompts" was accepted by The 18th European Conference on Computer Vision  ([ECCV 2024](https://link.springer.com/chapter/10.1007/978-3-031-73232-4_14)).
 
 - 🎉 **08/2023**: we won the **second prize** in the "AIGC Inference Performance Optimisation Track" held by Baidu.
 
