@@ -19,5 +19,5 @@ shieldio_data = {
   "label": "citations",
   "message": f"{author['citedby']}",
 }
-with open(f'results/gs_data_shieldsio.json', 'w') as outfile:
+with open(f'results/google_scholar_citations.json', 'w') as outfile:
     json.dump(shieldio_data, outfile, ensure_ascii=False)
