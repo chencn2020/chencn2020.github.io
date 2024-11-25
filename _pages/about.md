@@ -40,6 +40,7 @@ redirect_from:
 
 >  🌟 The full publication list is on <a href="https://scholar.google.com/citations?user=ozllxV4AAAAJ"><img src="https://img.shields.io/badge/Google%20Scholar-white?style=flat&logo=Google%20Scholar" style="max-width 100%; height: auto;"></a>.
 
+{% include_relative includes/projects.md %}
 
 {% include_relative includes/honors.md %}
 
