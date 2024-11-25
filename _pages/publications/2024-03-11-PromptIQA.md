@@ -17,7 +17,7 @@
     <a href="https://arxiv.org/abs/2403.04993"><img src="https://img.shields.io/badge/Arxiv-red" style="max-width: 100%; height: auto;"></a>
     <a href="https://github.com/chencn2020/PromptIQA"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github
     " style="max-width: 100%; height: auto;"></a>
-    <a href="https://huggingface.co/spaces/Zevin2023/PromptIQA"><img src="https://huggingface.co/datasets/huggingface/badges/raw/main/open-in-hf-spaces-sm-dark.svg" alt="Open in Spaces" style="max-width: 100%; height: auto;"></a>
+    <a href="https://huggingface.co/spaces/Zevin2023/PromptIQA"><img src="images/open-in-hf-spaces-sm-dark.svg" alt="Open in Spaces" style="max-width: 100%; height: auto;"></a>
 </div>
 
 </div>
