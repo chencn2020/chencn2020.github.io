@@ -13,12 +13,12 @@
 <b style="color:rgb(140, 27, 19)"> TL;DR: </b> We propose a novel IQA network (PromptIQA) for all-in-one IQA and fast adaptation on new assessment requirements.
 
 <div style="margin-top: 5px;">
-    <a href="https://link.springer.com/chapter/10.1007/978-3-031-73232-4_14"><img src="https://img.shields.io/badge/Paper-blue" style="max-width: 100%; height: auto;"></a>
-    <a href="https://arxiv.org/abs/2403.04993"><img src="https://img.shields.io/badge/Arxiv-red" style="max-width: 100%; height: auto;"></a>
-    <a href="https://github.com/chencn2020/PromptIQA"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github
-    " style="max-width: 100%; height: auto;"></a>
-    <a href="https://huggingface.co/spaces/Zevin2023/PromptIQA"><img src="images/open-in-hf-spaces-sm-dark.svg" alt="Open in Spaces" style="max-width: 100%; height: auto;"></a>
+    <a href="https://link.springer.com/chapter/10.1007/978-3-031-73232-4_14" target="_blank"><img src="https://img.shields.io/badge/Paper-blue" style="max-width: 100%; height: auto;"></a>
+    <a href="https://arxiv.org/abs/2403.04993" target="_blank"><img src="https://img.shields.io/badge/Arxiv-red" style="max-width: 100%; height: auto;"></a>
+    <a href="https://github.com/chencn2020/PromptIQA" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github" style="max-width: 100%; height: auto;"></a>
+    <a href="https://huggingface.co/spaces/Zevin2023/PromptIQA" target="_blank"><img src="images/open-in-hf-spaces-sm-dark.svg" alt="Open in Spaces" style="max-width: 100%; height: auto;"></a>
 </div>
+
 
 </div>
 </div> 
