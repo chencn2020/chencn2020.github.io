@@ -1,7 +1,7 @@
 
 Hi👋, I am currently pursuing a PhD at the State Key Laboratory of Multimodal Artificial Intelligence System, Institute of Automation, Chinese Academy of Sciences (CASIA), under the guidance of Prof. [Weiming Hu](https://people.ucas.ac.cn/~huweiming), Prof. [Bing Li](https://people.ucas.edu.cn/~bingli), Prof. [Chunfeng Yuan](https://people.ucas.ac.cn/~yuanchunfeng) and Associate Prof. [Juan Wang](https://people.ucas.ac.cn/~wangjuan).
 
-Before that, I got my bachelor’s degree from Beijing Jiaotong University (BJTU) in 2022. Especially thanks to  Prof. [Runming Cong](https://rmcong.github.io/MVPLab.html) and Prof. [Fangshi Wang](https://faculty.bjtu.edu.cn/rjxy/773.html) for their guidance during this period.
+Before that, I got my bachelor’s degree from Beijing Jiaotong University (BJTU) in 2022. Especially thank Prof. [Runming Cong](https://rmcong.github.io/MVPLab.html) and Prof. [Fangshi Wang](https://faculty.bjtu.edu.cn/rjxy/773.html) for their guidance during this period.
 
 My research interests include:
 
