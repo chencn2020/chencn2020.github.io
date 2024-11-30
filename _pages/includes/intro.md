@@ -5,8 +5,9 @@ Before that, I got my bachelor’s degree from Beijing Jiaotong University (BJTU
 
 My research interests include:
 
-- Image Signal Processing (ISP)
+- Computational Imaging
 - Image Quality Assessment (IQA)
+- Image Signal Processing (ISP)
 - Large Language Model (LLM)
 
 I am trying to explore and solve some intersting challenges in these fields. I have published some papers at the top international AI conferences (ECCV, IJCV, ACCV, etc.) <a href='https://scholar.google.com/citations?user=ozllxV4AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
