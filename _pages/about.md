@@ -23,6 +23,11 @@ redirect_from:
 # 📝 Publications 
 
 <div class="year-badge">
+    <b>2025 🐍</b>
+</div>
+{% include_relative publications/2025-04-05-Defusion.md %}
+
+<div class="year-badge">
     <b>2024 🐲</b>
 </div>
 {% include_relative publications/2024-11-15-SEAGULL.md %}
