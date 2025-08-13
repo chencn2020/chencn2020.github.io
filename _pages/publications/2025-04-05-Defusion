@@ -1,0 +1,24 @@
+
+<div class='paper-box'>
+<div class='paper-box-image-text'>
+<div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/publications/Defusion.png' alt="sym" width="100%"></div></div>
+
+<div class='paper-box-text' markdown="1">
+<div style="margin-bottom: 5px; font-size:1.2em">
+    <b>Visual-Instructed Degradation Diffusion for All-in-One Image Restoration</b>
+</div>
+
+Wenyang Luo, Haina Qin, **Zewen Chen**, Libin Wang, et al.
+
+<b style="color:rgb(140, 27, 19)"> TL;DR: </b> We propose **Defusion**, an all-in-one image restoration framework that uses visual instruction-guided degradation diffusion to handle diverse and mixed degradations with a single, generalizable model.
+
+<div style="margin: 3px;">
+    <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Luo_Visual-Instructed_Degradation_Diffusion_for_All-in-One_Image_Restoration_CVPR_2025_paper.pdf" target="_blank"><img src="https://img.shields.io/badge/Paper-blue" style="max-width: 100%; height: auto;"></a>
+</div>
+
+</div>
+</div> 
+<details>
+    <summary><b>Quick Read (Click Me)</b></summary> Image restoration tasks like deblurring, denoising, and dehazing usually need distinct models for each degradation type, restricting their generalization in real-world scenarios with mixed or unknown degradations. In this work, we propose Defusion, a novel all-in-one image restoration framework that utilizes visual instruction-guided degradation diffusion. Unlike existing methods that rely on taskspecific models or ambiguous text-based priors, Defusion constructs explicit visual instructions that align with the visual degradation patterns. These instructions are grounded by applying degradations to standardized visual elements, capturing intrinsic degradation features while agnostic to image semantics. Defusion then uses these visual instructions to guide a diffusion-based model that operates directly in the degradation space, where it reconstructs highquality images by denoising the degradation effects with enhanced stability and generalizability. Comprehensive experiments demonstrate that Defusion outperforms state-ofthe-art methods across diverse image restoration tasks, including complex and real-world degradations.
+</details>
+</div>
