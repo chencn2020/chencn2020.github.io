@@ -1,7 +1,7 @@
 
 <div class='paper-box'>
 <div class='paper-box-image-text'>
-<div class='paper-box-image'><div><div class="badge">ECCVW 2024</div><img src='images/publications/MobileIQA.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-image'><div><div class="badge">ECCVW 2024</div><img src='images/publications/MobileIQA.jpg' alt="sym" width="100%"></div></div>
 
 <div class='paper-box-text' markdown="1">
 <div style="margin-bottom: 5px; font-size:1.2em">
