@@ -31,6 +31,7 @@ redirect_from:
     <b>2024 🐲</b>
 </div>
 {% include_relative publications/2024-11-15-SEAGULL.md %}
+{% include_relative publications/2024-08-30-MobileIQA.md %}
 {% include_relative publications/2024-03-11-PromptIQA.md %}
 
 <div class="year-badge">

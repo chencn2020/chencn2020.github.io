@@ -1,8 +1,12 @@
 # 🔥 News
 
-- 🎉 **07/2025**:  We were invited to give a talk at Apple Inc.
+- 🎉 **07/2025**:  We were invited to give a talk at Apple Inc. .
 
 - 🎉 **04/2025**:  Our work "Visual-Instructed Degradation Diffusion for All-in-One Image Restoration" was accepted by The IEEE/CVF Conference on Computer Vision and Pattern Recognition 2025 ([CVPR 2025](https://openaccess.thecvf.com/content/CVPR2025/papers/Luo_Visual-Instructed_Degradation_Diffusion_for_All-in-One_Image_Restoration_CVPR_2025_paper.pdf)).
+
+- 🎉 **12/2025**:  We were invited to give a talk at DJI Inc.
+
+- 🎉 **08/2024**:  Our work "MobileIQA: Exploiting Mobile-level Diverse Opinion Network For No-Reference Image Quality Assessment Using Knowledge Distillation" was accepted by The 18th European Conference on Computer Vision Workshop  ([ECCVW 2024](https://dl.acm.org/doi/10.1007/978-3-031-91856-8_1)).
 
 - 🎉 **07/2024**:  Our work "PromptIQA: Boosting the Performance and Generalization for No-Reference Image Quality Assessment via Prompts" was accepted by The 18th European Conference on Computer Vision  ([ECCV 2024](https://link.springer.com/chapter/10.1007/978-3-031-73232-4_14)).
 
