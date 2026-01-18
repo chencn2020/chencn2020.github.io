@@ -3,15 +3,18 @@
    ========================================================================== */
 
 .masthead {
-  position: sticky;
+  position: fixed !important;
   top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
   background-color: white;
   border-bottom: 1px solid $border-color;
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.15s;
           animation-delay: 0.15s;
-  z-index: 20;
+  z-index: 1000;
 
   &__inner-wrap {
     @include container;
@@ -60,5 +63,3 @@
     font-weight: 700;
   }
 }
-
-

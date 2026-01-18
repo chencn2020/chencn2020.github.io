@@ -20,6 +20,94 @@ $(document).ready(function(){
       bumpIt();
     }
   }, 250);
+
+  var mastheadHeight = 0;
+  var $masthead = $(".masthead");
+  var $allNavLinks = $("#site-nav a");
+  var $navLinks = $allNavLinks.filter(function() {
+    return this.hash;
+  }).filter(function() {
+    return $(this).closest(".masthead__menu-home-item").length === 0;
+  });
+  var sections = [];
+
+  var updateMastheadHeight = function() {
+    mastheadHeight = $masthead.outerHeight() || 0;
+    document.documentElement.style.setProperty("--masthead-height", mastheadHeight + "px");
+  };
+
+  var enforceMastheadFixed = function() {
+    if (!$masthead.length) {
+      return;
+    }
+    var position = window.getComputedStyle($masthead[0]).position;
+    if (position !== "fixed") {
+      $masthead.css({
+        position: "fixed",
+        top: 0,
+        left: 0,
+        right: 0,
+        width: "100%",
+        zIndex: 1000
+      });
+    }
+  };
+
+  var updateMainOffset = function() {
+    var $main = $("#main");
+    if (!$main.length) {
+      return;
+    }
+    var baseFontSize = parseFloat(window.getComputedStyle(document.documentElement).fontSize) || 16;
+    var targetPadding = mastheadHeight + baseFontSize;
+    var currentPadding = parseFloat(window.getComputedStyle($main[0]).paddingTop) || 0;
+    if (currentPadding < mastheadHeight) {
+      $main.css("padding-top", targetPadding + "px");
+    }
+  };
+
+  var buildSections = function() {
+    sections = [];
+    $navLinks.each(function() {
+      var hash = this.hash;
+      var $target = hash ? $(hash) : $();
+      if ($target.length) {
+        sections.push({hash: hash, $target: $target});
+      }
+    });
+  };
+
+  var setActiveNav = function(hash) {
+    if (!hash) {
+      return;
+    }
+    $allNavLinks.removeClass("is-active").removeAttr("aria-current");
+    $navLinks
+      .filter(function() {
+        return this.hash === hash;
+      })
+      .addClass("is-active")
+      .attr("aria-current", "page");
+  };
+
+  var updateActiveNav = function() {
+    if (!sections.length) {
+      return;
+    }
+    var scrollPosition = $(window).scrollTop() + mastheadHeight + 4;
+    var activeHash = sections[0].hash;
+    for (var i = 0; i < sections.length; i++) {
+      if (scrollPosition >= sections[i].$target.offset().top) {
+        activeHash = sections[i].hash;
+      }
+    }
+    setActiveNav(activeHash);
+  };
+
+  updateMastheadHeight();
+  enforceMastheadFixed();
+  updateMainOffset();
+  buildSections();
   // FitVids init
   $("#main").fitVids();
 
@@ -58,7 +146,32 @@ $(document).ready(function(){
   });
 
   // init smooth scroll
-  $("a").smoothScroll({offset: -20});
+  $("a").smoothScroll({offset: -mastheadHeight});
+
+  updateActiveNav();
+
+  $(window).on("scroll", function() {
+    enforceMastheadFixed();
+    updateActiveNav();
+  });
+
+  $(window).on("resize", function() {
+    updateMastheadHeight();
+    enforceMastheadFixed();
+    updateMainOffset();
+    $("a").smoothScroll("options", {offset: -mastheadHeight});
+    buildSections();
+    updateActiveNav();
+  });
+
+  $(window).on("load", function() {
+    updateMastheadHeight();
+    enforceMastheadFixed();
+    updateMainOffset();
+    $("a").smoothScroll("options", {offset: -mastheadHeight});
+    buildSections();
+    updateActiveNav();
+  });
 
   // add lightbox class to all image links
   $("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");

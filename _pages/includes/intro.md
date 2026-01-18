@@ -1,24 +1,33 @@
+# 👋 About Me
 
-Hi👋, I am currently pursuing a PhD at the State Key Laboratory of Multimodal Artificial Intelligence System, Institute of Automation, Chinese Academy of Sciences (CASIA), under the guidance of Prof. [Weiming Hu](https://people.ucas.ac.cn/~huweiming), Prof. [Bing Li](https://people.ucas.edu.cn/~bingli), Prof. [Chunfeng Yuan](https://people.ucas.ac.cn/~yuanchunfeng) and Associate Prof. [Juan Wang](https://people.ucas.ac.cn/~wangjuan).
+<p style="text-indent: 1em;">
+Hi, I am currently pursuing a PhD at the State Key Laboratory of Multimodal Artificial Intelligence System, Institute of Automation, Chinese Academy of Sciences (CASIA), under the guidance of Prof. <a href="https://people.ucas.ac.cn/~huweiming">Weiming Hu</a>, Prof. <a href="https://people.ucas.edu.cn/~bingli">Bing Li</a>, Prof. <a href="https://people.ucas.ac.cn/~yuanchunfeng">Chunfeng Yuan</a> and Associate Prof. <a href="https://people.ucas.ac.cn/~wangjuan">Juan Wang</a>.
+</p>
 
-Before that, I got my bachelor’s degree from Beijing Jiaotong University (BJTU) in 2022. Especially thank Prof. [Runming Cong](https://rmcong.github.io/MVPLab.html) and Prof. [Fangshi Wang](https://faculty.bjtu.edu.cn/rjxy/773.html) for their guidance during this period.
+<p style="text-indent: 1e m;">
+Before that, I got my bachelor’s degree from Beijing Jiaotong University (BJTU) in 2022. Especially thank Prof. <a href="https://rmcong.github.io/MVPLab.html">Runming Cong</a> and Prof. <a href="https://faculty.bjtu.edu.cn/rjxy/773.html">Fangshi Wang</a> for their guidance during this period.
+</p>
 
+<p style="text-indent: 1em;">
+I'd like to solve practical challenges motivated by real-world industrial problems, and have published some papers at the top international venues (ECCV, CVPR, IJCV, etc.) <a href='https://scholar.google.com/citations?user=ozllxV4AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
+</p>
+
+<p style="text-indent: 1em;">
 My research interests include:
+</p>
 
-- Computational Imaging
+<p><i class="fas fa-camera fa-fw" aria-hidden="true"></i> Computational Imaging</p>
 - Image Quality Assessment (IQA)
 - Image Signal Processing (ISP)
-- Large Language Model (LLM)
+- 3A Algorithms
+- AI-ISP
 
-I am trying to explore and solve some intersting challenges in these fields. I have published some papers at the top international AI conferences (ECCV, IJCV, ACCV, etc.) <a href='https://scholar.google.com/citations?user=ozllxV4AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
+<p><i class="fas fa-layer-group fa-fw" aria-hidden="true"></i> Multimodal Understanding</p>
+- Vision-Language Models (VLM)
+- Retrieval-Augmented Generation (RAG)
+
+<p style="text-indent: 1em;">
+Recently, my research focuses on developing a <strong>unified foundational model for IQA</strong> that can support multiple IQA tasks, such as quality prediction and distortion localization. In parallel, I am also working on an <strong>AI-driven pet companion project 🐾</strong> that helps pet owners curate warm, lasting memories and better meet their genuine companionship needs. I would be pleased to connect with anyone who shares interests in these directions.
+</p>
 
 📫 My email: chencn2018@163.com, chenzewen2022@ia.ac.cn
-
-🏁 My Research Repos
-- **Image Quality Assessment**
-  - 💯 [SimpleIQA](https://github.com/chencn2020/SimpleIQA)  ![GitHub Repo stars](https://img.shields.io/github/stars/chencn2020/SimpleIQA?style=social)  ![GitHub forks](https://img.shields.io/github/forks/chencn2020/SimpleIQA?style=social)
-  - 🚀 [SEAGULL](https://github.com/chencn2020/Seagull)  ![GitHub Repo stars](https://img.shields.io/github/stars/chencn2020/Seagull?style=social)  ![GitHub forks](https://img.shields.io/github/forks/chencn2020/Seagull?style=social)
-  - 📱 [MobileIQA (ECCVW2024)](https://github.com/chencn2020/MobileIQA) ![GitHub stars](https://img.shields.io/github/stars/chencn2020/MobileIQA?style=social) ![GitHub forks](https://img.shields.io/github/forks/chencn2020/MobileIQA?style=social)
-  - 🧭 [PromptIQA (ECCV2024)](https://github.com/chencn2020/PromptIQA) ![GitHub stars](https://img.shields.io/github/stars/chencn2020/PromptIQA?style=social) ![GitHub forks](https://img.shields.io/github/forks/chencn2020/PromptIQA?style=social)
-  - 🧑‍🏫 [TeacherIQA (ACCV2022)](https://github.com/chencn2020/TeacherIQA) ![GitHub stars](https://img.shields.io/github/stars/chencn2020/TeacherIQA?style=social) 
-

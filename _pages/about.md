@@ -18,9 +18,16 @@ redirect_from:
 
 {% include_relative includes/intro.md %}
 
+{% include_relative includes/repositories.md %}
+
 {% include_relative includes/news.md %}
 
 # 📝 Publications 
+
+<div class="year-badge">
+    <b>2026 🐎</b>
+</div>
+{% include_relative publications/2026-01-17-promptiqa_plus.md %}
 
 <div class="year-badge">
     <b>2025 🐍</b>
