@@ -12,15 +12,12 @@ Before that, I got my bachelor’s degree from Beijing Jiaotong University (BJTU
 I'd like to solve practical challenges motivated by real-world industrial problems, and have published some papers at the top international venues (ECCV, CVPR, IJCV, etc.) <a href='https://scholar.google.com/citations?user=ozllxV4AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 </p>
 
-<p style="text-indent: 1em;">
-My research interests include:
-</p>
+💡My research interests include:
 
 <p><i class="fas fa-camera fa-fw" aria-hidden="true"></i> Computational Imaging</p>
 - Image Quality Assessment (IQA)
-- Image Signal Processing (ISP)
+- AI Image Signal Processing (AI-ISP)
 - 3A Algorithms
-- AI-ISP
 
 <p><i class="fas fa-layer-group fa-fw" aria-hidden="true"></i> Multimodal Understanding</p>
 - Vision-Language Models (VLM)

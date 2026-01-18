@@ -1,7 +1,7 @@
 # 🔥 News
 
 <div class="year-badge">
-  <b>2025</b>
+  <b>2025🐍</b>
 </div>
 <ul class="news-timeline">
   <li class="news-timeline__item">
@@ -10,7 +10,7 @@
       <span class="news-sep">-</span>
       <span class="news-tag news-tag--industry"><i class="fas fa-industry" aria-hidden="true"></i>Industry:</span>
     </span>
-    <span class="news-text">Our IQA solution has been deployed at <strong>OPPO</strong> in practical production. It transforms assessment from a subjective process into an objective one and reduces the evaluation time from approximately <strong>two person-days</strong> to <strong>0.1 person-days</strong>.</span>
+    <span class="news-text">Our IQA solution has been deployed at <strong>OPPO</strong> in practical production. It transforms assessment from a subjective process into an objective one and reduces the evaluation workload from approximately <strong>two person-days</strong> to <strong>0.1 person-days</strong>.</span>
   </li>
   <li class="news-timeline__item">
     <span class="news-meta">
@@ -31,7 +31,7 @@
 </ul>
 
 <div class="year-badge">
-  <b>2024</b>
+  <b>2024🐲</b>
 </div>
 <ul class="news-timeline">
   <li class="news-timeline__item">
@@ -61,7 +61,7 @@
 </ul>
 
 <div class="year-badge">
-  <b>2023</b>
+  <b>2023🐰</b>
 </div>
 <ul class="news-timeline">
   <li class="news-timeline__item">
@@ -83,7 +83,7 @@
 </ul>
 
 <div class="year-badge">
-  <b>2022</b>
+  <b>2022🐯</b>
 </div>
 <ul class="news-timeline">
   <li class="news-timeline__item">

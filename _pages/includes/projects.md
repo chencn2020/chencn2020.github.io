@@ -1,4 +1,4 @@
-# 🏆 Project Achievements
+# 🏆 Projects
 
 <div class="year-badge">
     <b style="color:rgb(46, 108, 57)">OPPO</b>
