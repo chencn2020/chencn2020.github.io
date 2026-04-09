@@ -21,7 +21,8 @@ I'd like to solve practical challenges motivated by real-world industrial proble
 
 <p><i class="fas fa-layer-group fa-fw" aria-hidden="true"></i> Multimodal Understanding</p>
 - Vision-Language Models (VLM)
-- Retrieval-Augmented Generation (RAG)
+- Multimodal Post-Training
+- Preference Alignment for Foundation Models
 
 <p style="text-indent: 1em;">
 Recently, my research focuses on developing a <strong>unified foundational model for IQA</strong> that can support multiple IQA tasks, such as quality prediction and distortion localization. In parallel, I am also working on an <strong>AI-driven pet companion project 🐾</strong> that helps pet owners curate warm, lasting memories and better meet their genuine companionship needs. I would be pleased to connect with anyone who shares interests in these directions.

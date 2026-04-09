@@ -1,6 +1,20 @@
 # 🔥 News
 
 <div class="year-badge">
+  <b>2026🐎</b>
+</div>
+<ul class="news-timeline">
+  <li class="news-timeline__item">
+    <span class="news-meta">
+      <span class="news-date">03/2026</span>
+      <span class="news-sep">-</span>
+      <span class="news-tag news-tag--award"><i class="fas fa-trophy" aria-hidden="true"></i>Award:</span>
+    </span>
+    <span class="news-text">We won <strong>second place</strong> in the <strong>NTIRE 2026</strong> <em>The 3rd Restore Any Image Model (RAIM): Professional Image Quality Assessment</em> challenge.</span>
+  </li>
+</ul>
+
+<div class="year-badge">
   <b>2025🐍</b>
 </div>
 <ul class="news-timeline">
