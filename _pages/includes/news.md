@@ -10,7 +10,7 @@
       <span class="news-sep">-</span>
       <span class="news-tag news-tag--award"><i class="fas fa-trophy" aria-hidden="true"></i>Award:</span>
     </span>
-    <span class="news-text">We won <strong>second place</strong> in the <strong>NTIRE 2026</strong> <em>The 3rd Restore Any Image Model (RAIM): Professional Image Quality Assessment</em> challenge.</span>
+    <span class="news-text">We achieved <strong><span style="color: red;">rank 3</span></strong> in the <strong>NTIRE 2026</strong> <em>The 3rd Restore Any Image Model (RAIM): Professional Image Quality Assessment</em> challenge.</span>
   </li>
 </ul>
 
