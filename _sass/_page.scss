@@ -110,6 +110,64 @@
     font-size: $type-size-6;
   }
 
+  .featured-project {
+    margin: 0.75em 0 1.75em;
+    padding: 1.1em 1.25em;
+    border: 1px solid mix(#2f5b9b, $border-color, 35%);
+    border-left: 4px solid #2f5b9b;
+    border-radius: 6px;
+    background: linear-gradient(135deg, rgba(#2f5b9b, 0.08), rgba(#fff, 0.96) 62%);
+    box-shadow: 0 8px 24px rgba(#000, 0.04);
+
+    h2 {
+      margin: 0.15em 0 0.55em;
+      font-size: $type-size-4;
+      line-height: 1.25;
+      color: $dark-gray;
+    }
+
+    p {
+      margin-bottom: 0.65em;
+      line-height: 1.62;
+    }
+  }
+
+  .featured-project__points {
+    margin: 0.35em 0 0.9em;
+
+    p {
+      margin: 0.42em 0;
+      line-height: 1.58;
+    }
+  }
+
+  .featured-project__bullet {
+    color: #2e6c39;
+    font-size: 0.85em;
+    margin-right: 0.2em;
+    vertical-align: 0.04em;
+  }
+
+  .featured-project__tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45em;
+    margin-top: 0.8em;
+
+    span {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.22em 0.62em;
+      border: 1px solid rgba(#2f5b9b, 0.22);
+      border-radius: 999px;
+      background: rgba(#fff, 0.72);
+      color: #2f5b9b;
+      font-size: $type-size-6;
+      font-weight: 600;
+      line-height: 1.4;
+    }
+  }
+
   .news-timeline {
     position: relative;
     margin: 0.75em 0 1.5em;

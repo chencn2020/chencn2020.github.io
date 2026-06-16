@@ -18,6 +18,8 @@ redirect_from:
 
 {% include_relative includes/intro.md %}
 
+{% include_relative includes/featured_project.md %}
+
 {% include_relative includes/repositories.md %}
 
 {% include_relative includes/news.md %}
@@ -58,5 +60,4 @@ redirect_from:
 {% include_relative includes/honors.md %}
 
 {% include_relative includes/edu.md %}
-
 
