@@ -6,6 +6,14 @@
 <ul class="news-timeline">
   <li class="news-timeline__item">
     <span class="news-meta">
+      <span class="news-date">2026</span>
+      <span class="news-sep">-</span>
+      <span class="news-tag news-tag--paper"><i class="fas fa-file-alt" aria-hidden="true"></i>Paper:</span>
+    </span>
+    <span class="news-text">Our work <em>Towards Region-Level No-Reference Image Quality Assessment</em> (SEAGULL) was accepted by <a class="news-venue" href="https://ieeexplore.ieee.org/document/11703903/">IEEE Transactions on Image Processing (TIP)</a>.</span>
+  </li>
+  <li class="news-timeline__item">
+    <span class="news-meta">
       <span class="news-date">03/2026</span>
       <span class="news-sep">-</span>
       <span class="news-tag news-tag--award"><i class="fas fa-trophy" aria-hidden="true"></i>Award:</span>

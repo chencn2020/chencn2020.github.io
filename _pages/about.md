@@ -18,8 +18,6 @@ redirect_from:
 
 {% include_relative includes/intro.md %}
 
-{% include_relative includes/featured_project.md %}
-
 {% include_relative includes/repositories.md %}
 
 {% include_relative includes/news.md %}
@@ -29,6 +27,7 @@ redirect_from:
 <div class="year-badge">
     <b>2026 🐎</b>
 </div>
+{% include_relative publications/2024-11-15-SEAGULL.md %}
 {% include_relative publications/2026-01-17-promptiqa_plus.md %}
 
 <div class="year-badge">
@@ -39,7 +38,6 @@ redirect_from:
 <div class="year-badge">
     <b>2024 🐲</b>
 </div>
-{% include_relative publications/2024-11-15-SEAGULL.md %}
 {% include_relative publications/2024-08-30-MobileIQA.md %}
 {% include_relative publications/2024-03-11-PromptIQA.md %}
 
